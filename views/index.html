@@ -1,0 +1,36 @@
+<!-- views/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to the Game</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="brand">GameApp</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main-content">
+    <div class="container">
+      <h1>Welcome to the Game!</h1>
+      <p>Try to find the hidden flag!</p>
+      <form action="/start-game" method="POST">
+        <button type="submit" class="btn">Start Game</button>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 GameApp. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
